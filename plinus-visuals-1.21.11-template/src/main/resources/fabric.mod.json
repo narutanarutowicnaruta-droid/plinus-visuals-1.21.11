@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "plinusvisuals",
+  "version": "${version}",
+  "name": "plinus visuals",
+  "description": "Lightweight visual mod for Minecraft 1.21.11 with Right Shift menu and Left Alt orbit camera.",
+  "authors": [
+    "plinus"
+  ],
+  "contact": {
+    "sources": "https://github.com/narutanarutowicnaruta-droid/plinus-visuals"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.plinus.visual.PlinusVisual"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
